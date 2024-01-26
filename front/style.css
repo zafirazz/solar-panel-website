@@ -1,0 +1,184 @@
+body {
+    font: 15px/1.5 Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: whitesmoke;
+}
+
+
+/*Global*/
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.button_1 {
+    height: 38px;
+    background: rgb(255, 187, 0);
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color:white;
+}
+/*Header*/
+header {
+    background: rgba(51, 119, 51, 0.904);
+    color: white;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: rgb(255, 187, 0) 3px solid;
+}
+
+header a{
+    color:white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+
+header li {
+    float:left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding {
+    float: left;
+
+}
+
+header #branding h1{
+    margin: 0;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header .highlight, header .current a {
+    color: rgb(255, 187, 0);
+    font-weight: bold;
+}
+
+header a:hover {
+    color: white;
+    font-weight: bold;
+}
+
+/*Showcase*/
+#showcase {
+    min-height: 400px;
+    background: url('/home/marbelle/project-website/logos/1bg.png') no-repeat 0 -184px;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    color: white;
+}
+
+#showcase h1{
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+.aboutus{
+    padding-left: 80px;
+    margin: auto;
+    overflow: hidden;
+}
+
+#showcase p {
+    font-size: 20px;
+}
+
+#information {
+    background-color: whitesmoke;
+    color: black;
+}
+
+#information .aboutus h2 {
+    margin-top: 60px;
+    font-size: 40px;
+    margin-bottom: 10px;
+    padding-left: 8%;
+}
+
+#information .info {
+    overflow: hidden;
+    margin-bottom: 35px;
+}
+
+#information .info p {
+    float: left;
+    font-size: 16px;
+    width: 40%;
+    padding: 10px;
+    margin-left: 8%;
+}
+
+#information .info img {
+    width: 500px;
+    float: right;
+    margin-right: 13%;
+}
+
+#form {
+    padding: 20px;
+    color: white;
+    background: rgba(51, 119, 51, 0.904);
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+#form h2 {
+    clear: both;
+    padding-left: 10%;
+    width: 40%;
+}
+
+#form form {
+    float: right;
+    margin-top: 1px;
+    margin-right: 15%;
+}
+
+#form input {
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+    margin-bottom: 10px;
+    margin-top: 0;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#boxes {
+    margin-top: 20px;
+}
+
+#boxes .box {
+    float: left;
+    text-align: center;
+    width: 32%;
+    padding: 10px;
+}
+
+#boxes .box img{
+    width: 100px;
+}
+
+footer {
+    padding: 20px;
+    margin-top: 20px;
+    color: white;
+    background-color: rgba(51, 119, 51, 0.904);
+    text-align: center;
+}
