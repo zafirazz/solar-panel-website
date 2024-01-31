@@ -130,12 +130,15 @@ header a:hover {
     margin-right: 13%;
 }
 
-#form {
-    padding: 20px;
+#form .emailbox{
+    padding: 20px 0;
+    display: flex;
     color: white;
+    align-items: center;
     background: rgba(51, 119, 51, 0.904);
     overflow: hidden;
     margin: 0 auto;
+    justify-content: space-evenly;
 }
 
 #form h2 {
@@ -150,14 +153,22 @@ header a:hover {
     margin-right: 15%;
 }
 
-#form input {
+#form input, textarea {
     padding: 4px;
     height: 25px;
-    width: 250px;
+    width: 300px;
     margin-bottom: 10px;
     margin-top: 0;
     display: inline-block;
     vertical-align: middle;
+    border-radius: 5px;
+    border: 1px ;
+}
+
+#form .button_1 {
+    border-radius: 5px;
+    border: 1px solid rgb(255, 187, 0);
+    font-weight: bold;
 }
 
 #boxes {
