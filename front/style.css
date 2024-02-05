@@ -13,6 +13,14 @@ body {
     overflow: hidden;
 }
 
+.dark {
+    padding: 15px;
+    background: rgba(51, 119, 51, 0.904);
+    border: 0;
+    padding-left: 20px;
+    color: white;
+}
+
 ul {
     margin: 0;
     padding: 0;
@@ -184,6 +192,18 @@ header a:hover {
 
 #boxes .box img{
     width: 100px;
+}
+/*Sidebar*/
+aside#sidebar{
+    float: right;
+    width: 50%;
+    margin-top: 10px;
+}
+
+#main .container img{
+    float: left;
+    width: 48%;
+    margin-top: 10px;
 }
 
 footer {
